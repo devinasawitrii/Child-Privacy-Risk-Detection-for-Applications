@@ -98,89 +98,10 @@ The optimized CatBoost model successfully detected **90% of high-risk applicatio
 
 ---
 
-## Confusion Matrix
-
-<p align="center">
-<img src="images/confusion_matrix.png" width="500">
-</p>
-
----
-
-
 ## Key Insights
 
-- The dataset is highly imbalanced, with approximately a 1:9 ratio between high-risk and low-risk applications.
-- Hyperparameter optimization substantially improves model performance.
-- Threshold optimization increases recall for the minority class without relying on oversampling techniques.
-- CatBoost effectively handles heterogeneous tabular data containing both categorical and numerical features.
-- Privacy-related attributes contribute the most to prediction performance.
-
----
-
-## Recommendations
-
-- Use the model as an initial screening tool for newly published applications.
-- Prioritize manual review for applications predicted as high risk.
-- Continuously retrain the model using updated application metadata.
-- Integrate explainability methods (e.g., SHAP) to improve model transparency.
-
----
-
-## Repository Structure
-
-```
-Child-Privacy-Risk-Detection/
-│
-├── notebooks/
-│   └── Child_Privacy_Risk_Detection.ipynb
-│
-├── images/
-│   ├── workflow.png
-│   ├── class_distribution.png
-│   ├── confusion_matrix.png
-│   └── feature_importance.png
-│
-├── README.md
-├── requirements.txt
-└── LICENSE
-```
-
----
-
-## Installation
-
-Install the required dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## Technologies
-
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- CatBoost
-- Optuna
-- Matplotlib
-- Seaborn
-
----
-
-## References
-
-- Kaggle Find IT 2025 Competition
-- CatBoost Documentation
-- Optuna Documentation
-- Children's Online Privacy Protection Act (COPPA)
-
----
-
-## Author
-
-**Devina Sawitri**
-
-Data Science Graduate — Universitas Negeri Surabaya
+- The dataset is highly imbalanced, with an approximate 1:9 ratio between high-risk and low-risk applications.
+- Mutually Disjoint Datasets strategy effectively addresses class imbalance.
+- Hyperparameter optimization significantly improves model performance.
+- Threshold optimization increases recall for the minority class.
+- CatBoost effectively handles tabular data dominated by categorical features.
