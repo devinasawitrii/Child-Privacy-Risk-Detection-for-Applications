@@ -37,7 +37,7 @@ The table below shows the first five records from the raw dataset.
 
 
 ### Raw Dataset Overview
-
+The dataset consists primarily of **11 categorical features**, complemented by **five numerical features** including `userRatingCount`, `isCorporateEmailScore`, `adSpent`, `appAge`, and `averageUserRating`.
 | Feature | Type | Description | Missing (%) |
 |----------|------|-------------|------------:|
 | developerCountry | String | Country where the application developer is located. | 0.00 |
@@ -57,8 +57,6 @@ The table below shows the first five records from the raw dataset.
 | appDescriptionBrandSafetyRating | String | Safety rating of the application description. | 0.00 |
 | mfaRating | String | Advertising/monetization orientation rating. | 0.00 |
 | coppaRisk | Boolean | Target variable indicating potential COPPA violation risk. | 0.00 |
-
-CatBoost was selected partly because it can naturally handle missing values without requiring explicit imputation, reducing the risk of introducing bias through artificial value replacement.
 
 ### Class Distribution
 
