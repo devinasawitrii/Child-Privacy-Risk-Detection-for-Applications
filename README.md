@@ -22,6 +22,19 @@ According to the competition description, the dataset was collected through web 
 - **coppaRisk**
   - `True` → High risk of violating COPPA.
   - `False` → Low risk of violating COPPA.
+ 
+### Sample Records
+
+The table below shows the first five records from the raw dataset.
+
+| developerCountry | countryCode | userRatingCount | primaryGenreName | downloads | deviceType | hasPrivacyLink | hasTermsOfServiceLink | hasTermsOfServiceLinkRating | isCorporateEmailScore | adSpent | appAge | averageUserRating | appContentBrandSafetyRating | appDescriptionBrandSafetyRating | mfaRating | coppaRisk |
+|------------------|-------------|----------------:|------------------|-----------|------------|----------------|-----------------------|-----------------------------|----------------------:|---------:|--------:|------------------:|------------------------------|---------------------------------|-----------|-----------|
+| NORWAY | RO | 127731 | Sports | NaN | smartphone | True | True | low | 99.0 | 14.017220 | 160.400000 | 4.0 | medium | low | low | False |
+| ADDRESS NOT LISTED IN PLAYSTORE | GLOBAL | 0 | Medical | 50 - 100 | GLOBAL | True | NaN | NaN | 99.0 | NaN | 17.500000 | 0.0 | NaN | low | low | False |
+| UNITED ARAB EMIRATES | CZ | 51143 | Games | 50000000 - 100000000 | GLOBAL | True | True | low | 0.0 | 31.883163 | 30.766667 | 4.0 | NaN | low | low | False |
+| GERMANY | GLOBAL | 1074 | Games | NaN | GLOBAL | True | NaN | NaN | 99.0 | NaN | 71.533333 | 4.0 | NaN | low | low | False |
+| CANNOT IDENTIFY COUNTRY | GLOBAL | 17 | Tools | 1000 - 5000 | GLOBAL | True | NaN | NaN | 99.0 | NaN | 52.400000 | 4.0 | NaN | low | low | False |
+
 
 ### Raw Dataset Overview
 
