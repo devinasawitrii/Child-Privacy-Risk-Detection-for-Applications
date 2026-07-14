@@ -60,33 +60,12 @@ The dataset consists primarily of **11 categorical features**, complemented by *
 
 ### Class Distribution
 
-The target variable is highly imbalanced, with an approximate **1:9 ratio** between high-risk (`True`) and low-risk (`False`) applications. This imbalance was addressed during model development using **class weighting**, **Mutually Disjoint Dataset (MDS) ensemble learning**, and **threshold optimization**, rather than oversampling techniques.
+The target variable is highly imbalanced, with an approximate **1:9 ratio** between high-risk (`True`) and low-risk (`False`) applications.
+<p align="center">
+<img src="images/class.png" width="850">
+</p>
 
 
-
-## Dataset
-
-**Source**
-
-Kaggle — Find IT 2025 Competition
-
-**Target Variable**
-
-- `coppaRisk`
-  - `1` = High privacy risk
-  - `0` = Low privacy risk
-
-**Dataset Summary**
-
-| Item | Value |
-|------|------:|
-| Samples | 6,981 |
-| Features | 16 |
-| Numerical Features | 5 |
-| Categorical Features | 11 |
-| Class Distribution | ~1 : 9 |
-
----
 
 ## Workflow
 
