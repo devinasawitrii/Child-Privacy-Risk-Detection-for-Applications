@@ -73,31 +73,6 @@ The target variable is highly imbalanced, with an approximate **1:9 ratio** betw
 <img src="images/workflow.png" width="500">
 </p>
 
-The workflow consists of:
-
-1. Data Cleaning
-2. Exploratory Data Analysis
-3. Feature Engineering
-4. Train–Validation–Test Split
-5. CatBoost Training
-6. Hyperparameter Optimization (Optuna)
-7. Threshold Optimization
-8. Model Evaluation
-
----
-
-## Data Preprocessing
-
-The preprocessing pipeline includes:
-
-- Removing duplicate records
-- Correcting invalid values
-- Handling missing values
-- Standardizing categorical variables
-- Feature engineering
-- Train–Validation–Test split (80:10:10)
-
----
 
 ## Machine Learning Model
 
@@ -106,7 +81,7 @@ The proposed model uses:
 - CatBoost Classifier
 - Optuna Hyperparameter Optimization
 - Threshold Optimization
-- Soft Voting Ensemble (Mutually Disjoint Dataset Strategy)
+- Mutually Disjoint Dataset Strategy
 
 ---
 
@@ -131,15 +106,6 @@ The optimized CatBoost model successfully detected **90% of high-risk applicatio
 
 ---
 
-## Feature Importance
-
-<p align="center">
-<img src="images/feature_importance.png" width="700">
-</p>
-
-The model identifies privacy-related features as the most influential factors in determining whether an application poses a potential privacy risk to children.
-
----
 
 ## Key Insights
 
