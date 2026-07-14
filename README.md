@@ -62,7 +62,7 @@ The dataset consists primarily of **11 categorical features**, complemented by *
 
 The target variable is highly imbalanced, with an approximate **1:9 ratio** between high-risk (`True`) and low-risk (`False`) applications.
 <p align="center">
-<img src="images/class.png" width="850">
+<img src="images/class.png" width="300">
 </p>
 
 
