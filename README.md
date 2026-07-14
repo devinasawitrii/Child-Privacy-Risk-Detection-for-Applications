@@ -62,7 +62,7 @@ The dataset consists primarily of **11 categorical features**, complemented by *
 
 The target variable is highly imbalanced, with an approximate **1:9 ratio** between high-risk (`True`) and low-risk (`False`) applications.
 <p align="center">
-<img src="images/class.png" width="300">
+<img src="images/class.png" width="400">
 </p>
 
 
@@ -70,7 +70,7 @@ The target variable is highly imbalanced, with an approximate **1:9 ratio** betw
 ## Workflow
 
 <p align="center">
-<img src="images/workflow.png" width="850">
+<img src="images/workflow.png" width="500">
 </p>
 
 The workflow consists of:
